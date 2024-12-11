@@ -1,5 +1,5 @@
 # Getranklord.com
-The platform for sell Ranklord, Ranklord Managed VPS Hosting and more.
+Platform to sell Ranklord, Ranklord Managed Hosting, Ranklord Email Sender, Ranklord Email Validator & Ranklord Webmaster.
 
 
 ## How to dev?
