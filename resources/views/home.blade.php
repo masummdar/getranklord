@@ -41,7 +41,7 @@
                                     <div class="dropdown-menu dropdown-open:opacity-100 start-0 top-full hidden w-full min-w-60 rounded-lg py-2 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute max-md:border max-md:shadow-none" role="menu" aria-orientation="vertical">
                                     <ul class="menu md:menu-horizontal rounded-box w-full max-xl:gap-4 p-0">
                                         <li>
-                                        <a href="#" class="menu-title">Ranklord</a>
+                                        <a href="#" class="menu-title">Business Automation</a>
                                         <ul class="menu">
                                             <li><a href="#">Design Solutions</a></li>
                                             <li><a href="#">Software Development</a></li>
@@ -50,7 +50,23 @@
                                         </ul>
                                         </li>
                                         <li>
-                                        <a href="#" class="menu-title">Ranklord Hosting</a>
+                                        <a href="#" class="menu-title">Bulk Email Sender</a>
+                                        <ul class="menu">
+                                            <li><a href="#">UI Kits</a></li>
+                                            <li><a href="#">Component Library</a></li>
+                                            <li><a href="#">WordPress Plugins</a></li>
+                                        </ul>
+                                        </li>
+                                        <li>
+                                        <a href="#" class="menu-title">Email Validator</a>
+                                        <ul class="menu">
+                                            <li><a href="#">UI Kits</a></li>
+                                            <li><a href="#">Component Library</a></li>
+                                            <li><a href="#">WordPress Plugins</a></li>
+                                        </ul>
+                                        </li>
+                                        <li>
+                                        <a href="#" class="menu-title">Managed Hosting</a>
                                         <ul class="menu">
                                             <li><a href="#">CRM</a></li>
                                             <li><a href="#">Management Solutions</a></li>
@@ -59,34 +75,12 @@
                                         </ul>
                                         </li>
                                         <li>
-                                        <a href="#" class="menu-title">Ranklord Mailer</a>
+                                        <a href="#" class="menu-title">Websites Manager</a>
                                         <ul class="menu">
                                             <li><a href="#">UI Kits</a></li>
                                             <li><a href="#">Component Library</a></li>
                                             <li><a href="#">WordPress Plugins</a></li>
                                         </ul>
-                                        </li>
-                                        <li>
-                                        <a href="#" class="menu-title">Ranklord Webmaster</a>
-                                        <ul class="menu">
-                                            <li><a href="#">UI Kits</a></li>
-                                            <li><a href="#">Component Library</a></li>
-                                            <li><a href="#">WordPress Plugins</a></li>
-                                        </ul>
-                                        </li>
-                                        <li>
-                                        <div class="w-full">
-                                            <div class="card sm:max-w-sm">
-                                                <figure><img src="https://cdn.flyonui.com/fy-assets/components/card/image-7.png" alt="headphone" /></figure>
-                                                <div class="card-body">
-                                                    <h5 class="card-title mb-2.5">Get free consultation</h5>
-                                                    <p class="mb-4">A perfect balance of exhilarating high-fidelity audio and the effortless magic of Airpods.</p>
-                                                    <div class="card-actions">
-                                                    <button class="btn btn-primary">Let's go</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                         </li>
                                     </ul>
                                     </div>
