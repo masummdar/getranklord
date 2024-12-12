@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'home')->name('home');
+Route::view('/pricing', 'pricing')->name('pricing');
+Route::view('/support', 'support')->name('support');
 
 Route::view('/products', 'products');
 

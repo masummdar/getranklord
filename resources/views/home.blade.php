@@ -17,11 +17,11 @@
         <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
             <div class="relative min-h-screen flex flex-col items-center  selection:bg-[#FF2D20] selection:text-white">
                 <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
-                    <header class="bg-base-100 flex w-full flex-wrap py-4 text-sm md:flex-nowrap md:justify-start md:py-0 rounded-md mt-5">
-                        <nav class="mx-auto w-full px-4" aria-label="Global">
-                            <div class="relative md:flex md:items-center">
+                    <header class="flex w-full flex-wrap py-4 text-sm md:flex-nowrap md:justify-start md:py-0 rounded-md mt-5">
+                        <nav class="mx-auto w-full bg-base-100 rounded-md" aria-label="Global">
+                            <div class="relative md:flex md:items-center px-4">
                             <div class="flex items-center justify-between">
-                                <a class="w-25" href="#" >
+                                <a class="flex w-full min-w-40" href="/" >
                                     <x-application-logo></x-application-logo>
                                 </a>
                                 <div class="md:hidden">
@@ -41,7 +41,7 @@
                                     <div class="dropdown-menu dropdown-open:opacity-100 start-0 top-full hidden w-full min-w-60 rounded-lg py-2 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute max-md:border max-md:shadow-none" role="menu" aria-orientation="vertical">
                                     <ul class="menu md:menu-horizontal rounded-box w-full max-xl:gap-4 p-0">
                                         <li>
-                                        <a href="#" class="menu-title">Services</a>
+                                        <a href="#" class="menu-title">Ranklord</a>
                                         <ul class="menu">
                                             <li><a href="#">Design Solutions</a></li>
                                             <li><a href="#">Software Development</a></li>
@@ -50,7 +50,7 @@
                                         </ul>
                                         </li>
                                         <li>
-                                        <a href="#" class="menu-title">Corporate Solutions</a>
+                                        <a href="#" class="menu-title">Ranklord Hosting</a>
                                         <ul class="menu">
                                             <li><a href="#">CRM</a></li>
                                             <li><a href="#">Management Solutions</a></li>
@@ -59,26 +59,41 @@
                                         </ul>
                                         </li>
                                         <li>
-                                        <a href="#" class="menu-title">Product Offerings</a>
+                                        <a href="#" class="menu-title">Ranklord Mailer</a>
                                         <ul class="menu">
                                             <li><a href="#">UI Kits</a></li>
                                             <li><a href="#">Component Library</a></li>
                                             <li><a href="#">WordPress Plugins</a></li>
-                                            <li>
-                                            <a href="#" class="menu-title">Open Source Projects</a>
-                                            <ul class="menu">
-                                                <li><a href="#">Authentication System</a></li>
-                                                <li><a href="#">Flyon Theme</a></li>
-                                            </ul>
-                                            </li>
                                         </ul>
+                                        </li>
+                                        <li>
+                                        <a href="#" class="menu-title">Ranklord Webmaster</a>
+                                        <ul class="menu">
+                                            <li><a href="#">UI Kits</a></li>
+                                            <li><a href="#">Component Library</a></li>
+                                            <li><a href="#">WordPress Plugins</a></li>
+                                        </ul>
+                                        </li>
+                                        <li>
+                                        <div class="w-full">
+                                            <div class="card sm:max-w-sm">
+                                                <figure><img src="https://cdn.flyonui.com/fy-assets/components/card/image-7.png" alt="headphone" /></figure>
+                                                <div class="card-body">
+                                                    <h5 class="card-title mb-2.5">Get free consultation</h5>
+                                                    <p class="mb-4">A perfect balance of exhilarating high-fidelity audio and the effortless magic of Airpods.</p>
+                                                    <div class="card-actions">
+                                                    <button class="btn btn-primary">Let's go</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                         </li>
                                     </ul>
                                     </div>
                                 </div>
                                 <ul class="menu md:menu-horizontal text-base px-0 max-md:w-fit max-md:py-0 gap-2">
-                                    <li><a href="#">Pricing</a></li>
-                                    <li><a href="#">Support<sup>24/7</sup></a></li>
+                                    <li><a href="{{route('pricing')}}">Pricing</a></li>
+                                    <li><a href="{{route('support')}}">Support<sup>24/7</sup></a></li>
                                     <li><a href="#">Resources</a></li>
                                 </ul>
                                 </div>
